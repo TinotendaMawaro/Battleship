@@ -1,0 +1,16 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    text-align: center;
+    padding: 20px;
+    gap:10px;
+    font-weight: bold;
+}
+
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    background-color: var(--cell-background-color);
+    aspect-ratio: 1;
+}

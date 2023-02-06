@@ -1,0 +1,23 @@
+.container {
+    color: black;
+}
+
+.null {
+
+}
+
+.hit {
+    background-color: var(--cell-background-color-hit);
+}
+
+.miss {
+    background-color: var(--cell-background-color-missed);
+}
+
+.ship {
+    background-color: var(--ship-color);
+}
+
+.hidden {
+    background-color: var(--cell-background-color);
+}

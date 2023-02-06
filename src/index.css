@@ -1,0 +1,25 @@
+/* THIS FILE CONTAINS CSS RESET AND GLOBAL VARIABLES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 1px solid white
+}
+
+html, body, #root, .App {
+    height: 100%;
+}
+
+:root {
+    --darkreader-neutral-background: #131516;
+    --darkreader-neutral-text: #d8d4cf;
+    --darkreader-selection-background: #004daa;
+    --darkreader-selection-text: #e8e6e3;
+    --cell-background-color:lightblue;
+    --cell-background-color-hit:red;
+    --cell-background-color-missed:grey;
+    --ship-color:green;
+    --shipyard-color:lightblue;
+    --button-color:#004daa;
+}

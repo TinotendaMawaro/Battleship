@@ -1,0 +1,8 @@
+.container {
+    background-color: var(--darkreader-neutral-background);
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: var(--darkreader-neutral-text);
+    font-family: Walter Turncoat, Arial, Helvetica, sans-serif;
+}
